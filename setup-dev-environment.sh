@@ -30,14 +30,16 @@ nix-env -iA \
   nixpkgs.yt-dlp
 
 # Re-Instate .config files
-stow \
-  bash \
-  git \
-  nvim \
-  slack-term \
-  taskwarrior
-  tmux \
-  toggl \
-  ssh
+# First of all we need a new default setup
+# for all of these apps
+# stow \
+  # bash \
+  # git \
+  # nvim \
+  # slack-term \
+  # taskwarrior
+  # tmux \
+  # toggl \
+  # ssh
 
 # More to come
